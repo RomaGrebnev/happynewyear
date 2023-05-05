@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+background-color: rgb(241, 170, 62);
+padding: 15px ;
+border-radius: 15px ;
+color: blue ;
+}
+
+header a {
+    text-decoration: none ;
+    color: blueviolet ;
+    border: 1px solid blueviolet ;
+    border-radius: 20px ;
+    padding: 5px;
+}
+
+h1 { 
+    color: rgb(4, 0, 255);
+    background-color: rgb(241, 170, 62);
+    text-align: center;
+    border: rgb(4, 0, 255);
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(241, 170, 62);
+    padding: 7px;
+}
+
+footer p {
+    background-color: rgb(241, 170, 62) ;
+    color: blue;
+    border: blue;
+    border-radius: 30px;
+    padding: 10px;
+    width: 550px;
+}
+
+#contacts {
+    color: rgb(4, 0, 255);
+}
+
+nav {
+    background-color:rgb(188, 211, 89);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none ;
+    color: blueviolet;
+    border: 5px solid blueviolet;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.product {
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(188, 211, 89);
+    text-align: center;
+    width: 400px;
+}
